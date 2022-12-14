@@ -1,0 +1,126 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.service{
+	width:1350px;
+	background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url(../img/welder-is-welding-steel-plates_1112-7906.webp);
+	background-position:center;
+	background-size:cover;
+	height:2500px;
+	background-attachment:fixed;
+}
+.navbar{
+	width:1200px;
+	height:75px;
+	margin:auto;
+}
+
+.icon{
+	width:20px;
+	float:left;
+	height:70px;
+}
+
+.logo{
+	color:#ff7200;
+	font-size:35px;
+	font-family:arial;
+	padding-left:20px;
+	float:left;
+	margin-top:10px;
+}
+
+.menu{
+	width:400px;
+	float:left;
+	height:70px;
+}
+
+ul{
+	float:left;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+ul li{
+	list-style:none;
+	margin-left:62px;
+	margin-top:27px;
+	font-size:14px;
+}
+
+ul li a{
+	text-decoration:none;
+	color:white;
+	font-family:arial;
+	font-weight:bold;
+	transition:0.4s ease-in-out;
+}
+
+ul li a:hover{
+	color:#00d989;
+}
+
+.service h1{
+	margin-left:600px;
+	color:#ff7200;
+}
+
+.gate{
+	margin-left:30px;
+	margin-top:0px;
+}
+
+.gate p{
+	color:#00d989;
+	margin-left:30px;
+	font-size:25px;
+	text-decoration:underline;
+}
+
+
+
+.attention button{
+	width:240px;
+	height:40px;
+	background:#00d989;
+	border:none;
+	margin-top:30px;
+	font-size:18px;
+	border-radius:10px;
+	cursor:pointer;
+	color:white;
+	transition:0.4s ease;
+	margin-left:570px;
+}
+
+.attention p{
+	color:white;
+	font-size:22px;
+	text-align:center;
+	margin-left:50px;
+}
+
+.attention:hover{
+	background-image:url(../img/881563d6444b370fa4ceea0c3183bb4c.gif);
+	background-repeat:no-repeat;
+	background-size:cover;
+	color:#00d989;
+}
+
+.gate h3{
+	color:white;
+}
+
+.gate img{
+	width:300px;
+	height:300px;
+	margin-left:24px;
+}
+.gate img:hover{
+	color:#00d989;
+	border:1px solid #00d989;
+}
